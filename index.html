@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Café</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalizer.css">
+	<link rel="shortcut icon" type="img/x-png" href="img/xicara2.png">
+	<!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+	body{
+		background: linear-gradient(30deg, grey, black);
+	}
+	.container{
+		color: grey;
+	}
+	#data{
+		float: left;
+		margin-left: 450px;
+	}
+	#bt1{
+		float: left;
+		margin: 5px;
+		margin-left: -10px;
+	}
+	#bt2{
+		float: left;
+		margin: 5px;
+	}
+	#direitos{
+		text-align: center;
+		background: linear-gradient(60deg, grey, black);
+		margin-bottom: 50px;
+		height: 100px;
+		padding-top: 30px;
+		color: white;
+		float: left;
+		width: 100%;
+		font-weight: bold;
+	}
+	#img1{
+		width: 300px;
+		height: 300px;
+		padding: 80px;
+		margin: 0px;
+		float: left;
+	}
+	#img2{
+		width: 300px;
+		height: 300px;
+		padding: 80px;
+		margin: 0px;
+		float: left;
+	}
+	#img3{
+		width: 300px;
+		height: 300px;
+		padding: 80px;
+		margin: 0px;
+		float: left;
+	}
+	#img4{
+		width: 300px;
+		height: 300px;
+		padding: 80px;
+		margin: 0px;
+		float: left;
+	}
+	#img5{
+		width: 300px;
+		height: 300px;
+		padding: 80px;
+		margin: 0px;
+		float: left;
+	}
+	#img6{
+		width: 300px;
+		height: 300px;
+		padding: 80px;
+		margin: 0px;
+		float: left;
+		
+	}
+	fieldset{
+		background-size: 1250px 800px;
+		border-radius: 10px 10px;
+		margin-top: 50px;
+		opacity: 1;
+		width: 109%;
+	}
+	#imgs{
+		float: left;
+		margin-left: 70px;
+	}
+	#img1:hover{
+		opacity: 0.6;
+		transition: 0.5s all;
+	}
+	#img2:hover{
+		opacity: 0.6;
+		transition: 0.5s all;
+	}
+	#img3:hover{
+		opacity: 0.6;
+		transition: 0.5s all;
+	}
+	#img4:hover{
+		opacity: 0.6;
+		transition: 0.5s all;
+	}
+	#img5:hover{
+		opacity: 0.6;
+		transition: 0.5s all;
+	}
+	#img6:hover{
+		opacity: 0.6;
+		transition: 0.5s all;
+	}
+	#descricao{
+		height: 600px;
+		color: white;
+		font-weight: bold;
+		font-size: 20px;
+		padding: 50px;
+		opacity: 0.3;
+		text-align: justify;
+		float: left;
+		margin-left: 50px;
+		margin-right: 50px;
+		border-radius: 20px 20px;
+	}
+	#title{
+		text-align: center;
+		color: black;
+		background: linear-gradient(60deg, white,grey);
+		border-radius: 10px 10px;
+		width: 100%;
+	
+	}
+	#descricao:hover{
+		opacity: 1;
+		transition: 1s all;
+	}
+	</style>
+</head>
+<body>
+	<div class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="opacity: 0.8;">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav ml-auto">
+				<li id="logo" class="logo"><img src="img/logo.png" style="width: 100px; height: 80px;"></li>
+				<li><a href="index.html" id="active">Home</a></li>
+				<li><a href="produtos.html">Produtos</a></li>
+				<li><a href="cadastrar_produto.html">Cadastrar Produto</a></li>
+				<li><a href="contato.html">Contato</a></li>
+				<li style="float: right;"><a href="area_cliente.html">Área do cliente</a></li>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="container" style="margin-top: 50px;">
+		<div class="row">
+			<div id="imgs">
+				<div class="col-md-12">
+					<img id="img1" src="img/img1.jpg" class="rounded-circle">
+					<img id="img2" src="img/img2.jpg" class="rounded-circle">
+					<img id="img3" src="img/img3.jpg" class="rounded-circle">
+					<img id="img4" src="img/img4.jpg" class="rounded-circle">
+					<img id="img5" src="img/img5.jpg" class="rounded-circle">
+					<img id="img6" src="img/img6.jpg" class="rounded-circle">
+				</div>
+			</div><hr>
+		<div class="row" id="descricao" class="col-md-12">
+			<div id="title">CAFÉ DA MANHÃ E CHÁ DA TARDE:</div>
+	    		<p>Nossos baristas querem levar até você o melhor que pode ser extraído de um café. São vários tipos de extrações e marcas de cafés acompanhados com uma mesa be buffet tipo Self Service, com sanduíches, tortas doces e salgadas e muito mais. Contamos também com um cardápio a la carte com bebidas quentes e geladas, sanduíches, omeletes.<br><br><br></p>
+			<div id="title">ALMOÇO:</div>
+				<p>Funcionamos diariamente com almoço estilo Self Service no quilo ou no buffet livre para se deliciar a vontade pagando um valor fixo.<br><br><br></p>
+			<div id="title">EVENTOS E COFFEE BREAK:</div>
+				<p>Nossa sala de reuniões, treinamento e eventos em geral (batizados, chá de panela ou de fralda) atende grupos fechados de até 20 pessoas. Oferecemos também coffee breaks empresariais.</p>
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="row">
+		<div class="col-md-12">
+			<h5 id="direitos">Todos os Direitos Reservados<br>NoCopyRight 2K19</h5>
+		</div>
+	</div>
+
+</body>
+</html>
