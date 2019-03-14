@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Café</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalizer.css">
+	<link rel="shortcut icon" type="img/x-png" href="img/xicara2.png">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style type="text/css">
+	h2{
+		text-align: center;
+		background-color: rgba(255,255,255,0.2);
+		border-radius: 20px;
+		margin-top: 0;
+		width: 50%;
+		height: 60px;
+		padding-top: 5px;
+		font-weight: bold;
+		color: black;
+		text-shadow: 2px 2px grey;
+		font-size: 35px;
+		border: 3px solid;
+		box-shadow: 6px 6px 7px black;
+	}
+	body{
+		background: linear-gradient(60deg, black,#1F2B36);
+	}
+	.container{
+		color: grey;
+	}
+	#bt1{
+		float: left;
+	}
+	#bt2{
+		float: left;
+		margin-left: 15px;
+	}
+	#direitos{
+		text-align: center;
+		background: linear-gradient(60deg, grey, black);
+		margin-bottom: 50px;
+		height: 100px;
+		padding-top: 30px;
+		color: white;
+		font-weight: bold;
+	}
+	.form-control{
+		width: 30%;
+	}
+	#campos{
+		width: 200%
+	}
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+	  	<a class="navbar-brand" href="#"><img src="css/ccafe.jpg" style="width: 100px; height: 80px;"></a>
+	  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+
+	  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      	<li class="nav-item active">
+		        	<a href="index.html">Home <span class="sr-only">(current)</span></a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a href="produtos.html">Produtos</a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a href="cadastrar_produto.html">Cadastrar Produto</a>
+		      	</li>
+		      	<li class="nav-item">
+		        	<a href="contato.html">Contato</a>
+		      	</li>
+		     	 <li class="nav-item">
+		        	<a href="area_cliente.html">Área do Cliente</a>
+		      	</li>
+		    </ul>
+	  </div>
+	</nav>
+	
+	<div class="container" style="margin-bottom: 100px; margin-top: 100px;">
+
+		<div class="page-header col-md-12" style="margin-bottom: 100px; float: left; width: 800px; margin-right: 10px;">
+			<h2>Contato</h2>
+		</div>
+
+		<div class="row col-md-12">
+			<div id="campos">
+				<label for="email">E-mail:</label><br>
+				<input type="email" name="email" id="email" placeholder="Digite o seu E-mail" class="form-control">
+				<br><br>
+
+				<label for="nome_cad">Nome:</label><br>
+				<input type="text" name="nome_cad" id="nome_cad" placeholder="Digite o seu Nome" class="form-control">
+				<br><br>
+
+				<label for="mensagem">Mensagem:</label><br>
+				<textarea rows="8" cols="50" class="form-control">
+				</textarea><br><br>
+ 			</div>
+ 		</div>
+
+ 		<div class="row col-md-12">
+			<button id="bt1" class="btn btn-primary">Enviar</button>
+			<button id="bt2" class="btn btn-primary">Limpar</button>
+		</div><br><hr>
+	</div>
+
+	<h5 id="direitos">Todos os Direitos Reservados<br>NoCopyRight 2K19</h5>
+
+</body>
+</html>
