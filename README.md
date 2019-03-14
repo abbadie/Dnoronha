@@ -1,2 +1,0 @@
-# Dnoronha
-JS
