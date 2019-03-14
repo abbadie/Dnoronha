@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Aula 1</title>
+	</head>
+	<body>
+
+		<h2>Região</h2>
+		<h3>1 = norte (R$55,00)</h3>
+		<h3>2 = sul (R$72,00)</h3>
+		<h3>3 = leste (R$120,00)</h3>
+		<h3>4 = oeste (R$310,00)</h3><hr>
+		<h2>Produto</h2>
+		<h3>1 = notebook (R$3000,00)</h3>
+		<h3>2 = computador (R$2000,00)</h3>
+		<h3>3 = tablet (R$1500,00)</h3>
+
+		<script type="text/javascript">
+
+			function myFunction() {
+			
+			
+				var regiao = parseInt(prompt('Informe a região'));
+
+
+				switch(regiao){
+					case 1:
+					var regiao = 55;
+					break;
+
+					case 1:
+					var regiao = 72;
+					break;
+
+					case 1:
+					var regiao = 120;
+					break;
+
+					case 1:
+					var regiao = 310;
+					break;
+
+					default:
+					alert("nope");
+				}
+
+				var produto = parseInt(prompt('Informe o produto'));
+
+				switch(produto){
+					case 1:
+					var produto = 3000;
+					break;
+
+					case 2:
+					var produto = 2000;
+					break;
+
+					case 3:
+					var produto = 1500;
+					break;
+
+					default:
+					alert("nope");
+				}
+
+
+				var re = regiao + produto;
+				var resultado = (alert(re));
+			}
+			
+
+		</script><br>
+
+		<button onclick="myFunction()">Fazer Pedido</button>
+
+	</body>
+</html>
