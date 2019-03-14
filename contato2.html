@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Art Café</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalizer.css">
+	<link rel="shortcut icon" type="img/x-png" href="img/xicara2.png">
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<style type="text/css">
+	h2{
+		text-align: center;
+		background-color: rgba(255,255,255,0.5);
+		border-radius: 20px;
+		margin-top: 0;
+		width: 50%;
+		height: 60px;
+		padding-top: 10px;
+		font-weight: bold;
+		color: black;
+		text-shadow: 2px 2px blue;
+		font-size: 35px;
+	}
+	body{
+		background: linear-gradient(60deg, black,#1F2B36);
+	}
+	.container{
+		color: grey;
+	}
+	#bt1{
+		float: left;
+		margin: 30px;
+		margin-left: 300px;
+	}
+	#bt2{
+		float: left;
+		margin: 30px;
+		margin-left: 300px;
+	}
+	#direitos{
+		text-align: center;
+		background-color: black;
+		margin-bottom: 50px;
+		height: 100px;
+		padding-top: 30px;
+		color: white;
+	}
+	</style>
+</head>
+<body>
+	<ul>
+		<li id="logo" class="logo"><img src="img/logo.png" style="width: 100px; height: 80px;"></li>
+		<li><a href="index.html" id="active">Home</a></li>
+		<li><a href="produtos.html">Produtos</a></li>
+		<li><a href="cadastrar_produto.html">Cadastrar Produto</a></li>
+		<li><a href="contato.html">Contato</a></li>
+		<li style="float: right;"><a href="area_cliente.html">Área do Cliente</a></li>
+	</ul>
+	<div class="container">
+
+		<div class="page-header" style="float: left; width: 800px; margin-left: 300px;">
+			<h2>Contato</h2>
+		</div>
+
+		<label for="email">E-mail:</label><br>
+		<input type="email" name="email" id="email" placeholder="Digite o seu E-mail" class="form-control">
+		<br><br><hr>
+
+		<label for="nome_cad">Nome:</label><br>
+		<input type="text" name="nome_cad" id="nome_cad" placeholder="Digite o seu Nome" class="form-control">
+		<br><br><hr>
+
+		<label for="mensagem">Mensagem:</label><br>
+		<textarea rows="8" cols="50" class="form-control">
+		</textarea><br><br><hr>
+
+		<button id="bt1" class="btn btn-secondary">Clique Aqui</button>
+		<button id="bt2" class="btn btn-secondary">Clique Aqui</button>
+	</div><br>
+	<h5 id="direitos">Todos os Direitos Reservados<br>NoCopyRight 2K19</h5>
+
+</body>
+</html>
