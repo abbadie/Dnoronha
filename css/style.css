@@ -1,0 +1,33 @@
+﻿	body {
+		margin: 0;
+		padding: 0;
+		background: #16121C;
+		/*background-image: url(img02/graozin2.jpeg);*/
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-color: #060606;
+		font-family: "Helvetica Neue", sans-serif;
+	}
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		overflow: hidden;
+		top: 0;
+		height: 80px;
+	}
+	li a {
+		text-decoration: none;
+		color: #777;
+		display: block;
+	}
+	li {
+		line-height: 40px;
+		height: 45px;
+		float: left;
+		width: 150px;
+		text-align: center;
+	}
+	li a:hover, #active{
+		color: white;
