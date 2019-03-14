@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Aula 1</title>
+	</head>
+	<body>
+
+		Conta:<input type="text" name="conta">
+		Senha:<input type="password" name="senha">
+		<button>Acessar</button>
+
+		<h2>Menu</h2>
+		<h3>1 = Saldo</h3>
+		<h3>2 = Depósito</h3>
+		<h3>3 = Pagamentos</h3>
+		<h3>4 = Transferência</h3>
+
+		<script type="text/javascript">
+
+			function myFunction() {
+				while (continuar != 0){
+
+			var x = 2000;
+
+			var opcao = parseInt(prompt('Escolha uma opção'));
+			
+			
+
+			switch(opcao){
+				case 1:
+				alert('Saldo Atual: '+x);
+				break;
+
+				case 2:
+				var y = parseInt(prompt('Quanto deseja depositar ?'));
+				alert('Saldo Total: '+(x+y));
+				break;
+
+				case 3:
+				var y = parseInt(prompt('Quanto deseja pagar ?'));
+				alert('Saldo Restante: '+(x-y));
+				break;
+
+				case 4:
+				var y = parseInt(prompt('Quanto deseja transferir ?'));
+				alert('Saldo Restante: '+(x-y));
+				break;
+
+				default:
+				alert(+'Opção Inválida');
+			}
+			var continuar = parseInt(prompt('1 = continuar 0 = finalizar'));
+		}
+			}
+		</script><br>
+
+		<button onclick="myFunction()">Escolher uma opção</button>
+
+	</body>
+</html>
